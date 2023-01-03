@@ -1,0 +1,905 @@
+body {
+  color: #D5D5D5;
+  background: #15181c;
+}
+
+@media (min-width: 1080px) {
+  .border-section:before {
+    border: 1px solid #fff;
+    left: 50px;
+    right: 50px;
+    position: absolute;
+    top: 110px;
+    bottom: 50px;
+    content: "";
+    border-top: 0px solid #fff;
+  }
+
+  .hero-border-top:before {
+    content: "";
+    background: #fff;
+    height: 1px;
+    width: 39.7%;
+    opacity: 0.1;
+    position: absolute;
+    left: 50px;
+    top: -191px;
+  }
+
+  .hero-border-top:after {
+    content: "";
+    background: #fff;
+    height: 1px;
+    width: 39.8%;
+    opacity: 0.1;
+    position: absolute;
+    right: 50px;
+    top: -191px;
+  }
+
+  /* Main menu tab area css */
+  .resturant-main-menu-tab .nav-position-right .wpc-nav li, .nav-position-left .wpc-nav li {
+    border: 1px solid #383A3E;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+  }
+
+  .resturant-main-menu-tab .nav-position-left .wpc-nav li:first-child {
+    border-top-width: 1px;
+  }
+
+  .resturant-main-menu-tab .nav-position-left .wpc-nav li:last-child {
+    border-bottom-width: 1px;
+  }
+
+  .resturant-main-menu-tab .wpc-nav li a {
+    border: 1px solid transparent !important;
+  }
+
+  .resturant-main-menu-tab .wpc-nav li a:before {
+    content: "";
+    height: 1px;
+    width: 289px;
+    background: #383A3E;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+  }
+
+  .resturant-main-menu-tab .wpc-nav li a.wpc-active:before {
+    background: #E7272D;
+  }
+
+  .resturant-main-menu-tab .wpc-nav li:last-child a:before {
+    display: none;
+  }
+
+  .resturant-main-menu-tab .wpc-food-menu-item .wpc-add-to-cart a i {
+    line-height: inherit;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    border: 2px solid #E7272D;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    margin-left: 20px;
+  }
+
+  .resturant-main-menu-tab .wpc-food-menu-item .wpc-add-to-cart a {
+    background-color: transparent;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .resturant-main-menu-tab .wpc-food-menu-item .wpc-add-to-cart a:after {
+    content: "";
+    width: 83px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    left: -1px;
+    bottom: 3px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+.gloreya-food-slider1 .wpc-food-menu-item .wpc-food-inner-content .wpc-add-to-cart a i {
+  line-height: 36px;
+}
+
+@media (max-width: 1024px) {
+  .resturant-location-area .wpc-single-cat-item {
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar.sidebar-woo .product_list_widget li .star-rating {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .event-dinning-section .elementor-background-overlay {
+    background-image: none !important;
+  }
+
+  .testimonial-carousel.owl-carousel.style4 .owl-dots {
+    bottom: 4% !important;
+  }
+
+  .sidebar.sidebar-woo .product_list_widget li .star-rating {
+    display: block;
+  }
+
+  .resturant-reservation-form .wpc-reservation-form #wpc_cancel_request {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .resturant-reservation-form .wpc-reservation-form .wpc_reservation_form {
+    padding: 40px 15px;
+  }
+
+  .resturant-location-area .wpc-location-list-style-1 .wpc-single-cat-item .wpc-category-title {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    z-index: 1;
+  }
+
+  .page-lists-items .elementor-icon-list-text {
+    margin: 0 !important;
+  }
+
+  /* Page list css */
+  .page-lists-items .elementor-icon-list-text {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 448px) {
+  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: none;
+  }
+}
+.woocommerce nav.woocommerce-MyAccount-navigation ul li a {
+  color: #d5d5d5;
+}
+
+.button-before-after {
+  position: relative;
+}
+
+.button-before-after .ekit-wid-con .elementskit-btn:before,
+.button-before-after .ekit-wid-con .elementskit-btn:after {
+  background: #E7272D;
+  left: 40px;
+  right: 40px;
+  position: absolute;
+  content: "";
+  height: 2px;
+  z-index: 1;
+  opacity: 1;
+  width: auto;
+}
+
+.button-before-after.white-btn .ekit-wid-con .elementskit-btn:before,
+.button-before-after.white-btn .ekit-wid-con .elementskit-btn:after {
+  background: #ffffff;
+}
+
+.button-before-after .ekit-wid-con .elementskit-btn:before {
+  top: -12px;
+}
+
+.button-before-after .ekit-wid-con .elementskit-btn:after {
+  top: auto;
+  bottom: -12px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button-before-after .ekit-wid-con .elementskit-btn:hover:before {
+  top: 0;
+  background: transparent;
+}
+
+.button-before-after .ekit-wid-con .elementskit-btn:hover:after {
+  bottom: 0;
+  background: transparent;
+}
+
+.elementskit-infobox.text-right {
+  float: right;
+}
+
+.event-and-dinning-wrapper .elementor-container {
+  margin-left: 0;
+}
+
+.post .post-body {
+  background: #1A2026;
+  border: 1px solid #1A2026;
+}
+
+.post .entry-header .entry-title a {
+  color: #ffffff;
+}
+
+.post .post-meta span {
+  color: #D5D5D5;
+}
+
+h1, h2, h3, h4, h5, h6, .post .entry-header .entry-title {
+  color: #D5D5D5;
+}
+
+a, .post-meta span i, .entry-header .entry-title a:hover, .sidebar ul li a:hover {
+  color: #D5D5D5;
+}
+
+.sidebar .widget {
+  margin-bottom: 40px;
+  border: 1px solid #383A3E;
+  padding: 40px;
+}
+
+.sidebar ul li {
+  border-bottom: 1px dashed #383A3E;
+}
+
+.sidebar ul li a {
+  color: #D5D5D5;
+}
+
+.sidebar .widget.widget_search .form-control {
+  background: #1A2026;
+  border: 1px solid #1A2026;
+  color: #D5D5D5;
+}
+
+.sidebar .widget.widget_search .input-group input.form-control:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1A2026 inset;
+          box-shadow: 0 0 0px 1000px #1A2026 inset;
+  -webkit-text-fill-color: #D5D5D5 !important;
+}
+
+.ts-team-style4 .ts-team-info:hover {
+  background: #15181C !important;
+}
+
+.ts-testimonial .testimonial-author-content {
+  padding: 40px;
+  padding-bottom: 50px;
+}
+
+.gallery-img-animation .elementor-image:hover:before {
+  left: 51%;
+}
+
+.testimonial-carousel.owl-carousel.style4 .owl-dots {
+  bottom: 7%;
+}
+
+.ts-contact-form .form-group .ts-input {
+  background: #15181C;
+  color: #d5d5d5;
+  border: 1px solid #858585;
+}
+
+.ts-contact-form .form-group .ts-input:placeholder {
+  color: #d5d5d5;
+}
+
+.faq .elementor-accordion .elementor-tab-title {
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.faq .elementor-accordion .elementor-accordion-item .elementor-tab-content.elementor-active {
+  border-bottom: 1px solid #3c3c3c !important;
+}
+
+.team-members-page .ts-team-style4 .ts-team-info:hover {
+  background: #1A2026 !important;
+}
+
+.resturants-faq .icon-plus {
+  font-size: 22px;
+}
+
+.menu-block .inner-box .info:before {
+  border: 1px dashed #858585;
+}
+
+.about-video-btn .ts-play-btn i {
+  margin-right: 7px;
+}
+
+.banner-area .mt-80 {
+  margin-top: 0;
+}
+
+.gallery-spacing-custom .elementor-image-gallery .gallery-icon {
+  position: relative;
+}
+
+.dark-nav .elementskit-navbar-nav > li {
+  margin: 0 15px;
+}
+
+.dark-nav .elementskit-navbar-nav > li > a:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: red;
+  top: 0;
+  left: 0;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.dark-nav .elementskit-navbar-nav > li > a:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: red;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.dark-nav .elementskit-navbar-nav > li:hover > a:after {
+  width: 100%;
+}
+
+.dark-nav .elementskit-navbar-nav > li:hover > a:before {
+  width: 100%;
+}
+
+.dark-nav .elementskit-navbar-nav > li > a.active:after {
+  width: 100%;
+}
+
+.dark-nav .elementskit-navbar-nav > li > a.active:before {
+  width: 100%;
+}
+
+/* shop page css */
+.woocommerce .woocommerce-result-count {
+  color: #ffffff;
+}
+
+.woocommerce .woocommerce-ordering select {
+  background-color: #1A2026;
+  color: #ffffff;
+  border: 1px solid #858585;
+}
+
+.sidebar .widget-title {
+  color: #ffffff;
+}
+
+.sidebar.sidebar-woo .product_list_widget li a {
+  color: #ffffff;
+}
+
+.sidebar.sidebar-woo .product_list_widget li {
+  border-bottom: 1px dashed #858585;
+}
+
+.sidebar.sidebar-woo .product_list_widget li:last-child {
+  border-bottom: 0px dashed #858585;
+}
+
+.sidebar.sidebar-woo .product_list_widget li del, .sidebar.sidebar-woo .product_list_widget li ins {
+  color: #d5d5d5;
+}
+
+.woocommerce-Price-amount.amount bdi {
+  color: #d5d5d5;
+}
+
+.tagcloud a {
+  color: #d5d5d5;
+}
+
+.woocommerce ul.products li.product:hover {
+  background: #1A2026;
+}
+
+.woocommerce ul.products li.product {
+  background: #1A2026;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a {
+  color: #383a3e;
+}
+
+.woocommerce nav.woocommerce-pagination ul li {
+  margin: 0 10px 0 0;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  margin-bottom: 60px;
+}
+
+.main-container.blog {
+  padding-bottom: 100px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  color: #ffffff;
+}
+
+.woocommerce div.product .product_title {
+  color: #ffffff;
+}
+
+.product_meta > span {
+  color: #d5d5d5;
+}
+
+.product_meta > span a, .product_meta span.sku {
+  color: #d5d5d5;
+}
+
+/* shop single page css */
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  background: transparent;
+  color: #ffffff;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  color: #ffffff;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+  color: #d5d5d5;
+}
+
+.woocommerce-Reviews #review_form_wrapper {
+  background: #15181C;
+  border: 1px solid #858585;
+}
+
+.woocommerce-Reviews .comment-reply-title {
+  color: #d5d5d5;
+}
+
+.woocommerce #review_form #respond textarea {
+  background: #1A2026;
+  border: 1px solid #1A2026;
+  border-radius: 10px;
+  color: #d5d5d5;
+}
+
+.woocommerce .woocommerce-Reviews .commentlist {
+  background-color: #1A2026 !important;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .meta {
+  color: #858585;
+}
+
+.woocommerce div.product form.cart .variations select {
+  border-color: #1A2026;
+  background-color: #1A2026;
+  color: #d5d5d5;
+}
+
+/* Checkout page css */
+.woocommerce-info, .woocommerce-error {
+  border-top-color: #d5d5d5;
+  background-color: #1A2026;
+  color: #d5d5d5;
+}
+
+.woocommerce-info::before {
+  color: #ffffff;
+}
+
+.checkout.woocommerce-checkout h3 {
+  color: #ffffff;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text, .woocommerce-checkout .woocommerce form .form-row .select2-selection--single {
+  background: #1A2026;
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea::-webkit-input-placeholder, .woocommerce form .form-row input::-webkit-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea::-moz-placeholder, .woocommerce form .form-row input::-moz-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea:-ms-input-placeholder, .woocommerce form .form-row input:-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea::-ms-input-placeholder, .woocommerce form .form-row input::-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea::input, .woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea::placeholder, .woocommerce form .form-row input::placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text::-webkit-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text::-moz-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text:-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text::-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text::placeholder {
+  color: #d5d5d5;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #d5d5d5;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text::-webkit-input-placeholder {
+  color: #d5d5d5 !important;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text::-moz-placeholder {
+  color: #d5d5d5 !important;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text:-ms-input-placeholder {
+  color: #d5d5d5 !important;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text::-ms-input-placeholder {
+  color: #d5d5d5 !important;
+}
+
+.woocommerce-checkout .woocommerce form .form-row input.input-text::placeholder {
+  color: #d5d5d5 !important;
+}
+
+.select2-results__option[aria-selected], .select2-results__option[data-selected], .woocommerce-checkout #payment ul.payment_methods, .woocommerce-checkout .woocommerce form .form-row .woocommerce-input-wrapper textarea.input-text {
+  background: #1A2026;
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+  border: 1px solid #ffffff;
+  background: #1A2026;
+}
+
+.woo-xs-content article {
+  background: #15181C;
+}
+
+.woocommerce-checkout-payment .form-row.place-order {
+  background: #1A2026;
+}
+
+.woocommerce-checkout #payment ul.payment_methods {
+  border-bottom: 1px solid #ffffff;
+}
+
+.checkout.woocommerce-checkout h3 {
+  padding-left: 0;
+}
+
+h3#order_review_heading {
+  padding-left: 15px;
+  margin-top: 60px;
+}
+
+.calculated_shipping h2 {
+  color: #ffffff;
+}
+
+/* Reservation Form Css */
+.resturant-reservation-form .wpc-reservation-field .wpc-form-control {
+  background: #15181C;
+  border: 1px solid #383A3E;
+  padding-left: 15px;
+  margin-bottom: 12px;
+  background-image: none !important;
+  border-radius: 0;
+  height: 52px;
+  color: #ffffff;
+}
+
+.resturant-reservation-form .wpc-reservation-field input {
+  background-color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-field input::-webkit-input-placeholder {
+  color: #15181C !important;
+}
+
+.resturant-reservation-form .wpc-reservation-field input::-moz-placeholder {
+  color: #15181C !important;
+}
+
+.resturant-reservation-form .wpc-reservation-field input:-ms-input-placeholder {
+  color: #15181C !important;
+}
+
+.resturant-reservation-form .wpc-reservation-field input::-ms-input-placeholder {
+  color: #15181C !important;
+}
+
+.resturant-reservation-form .wpc-reservation-field input::placeholder {
+  color: #15181C !important;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field .wpc-form-control#wpc-message {
+  height: 130px;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field textarea::-webkit-input-placeholder {
+  color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field textarea::-moz-placeholder {
+  color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field textarea:-ms-input-placeholder {
+  color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field textarea::-ms-input-placeholder {
+  color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field textarea::placeholder {
+  color: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field {
+  position: relative;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field label {
+  font-size: 15px;
+  position: absolute;
+  background: #15181C;
+  top: -14px;
+  left: 20px;
+  padding: 0 10px;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.resturant-reservation-form .wpc_reservation_form.wpc_reservation_user_info {
+  background: #15181C;
+}
+
+.resturant-reservation-form .wpc-reservation-form span.dashicons.dashicons-clock {
+  position: absolute;
+  right: 20px;
+  top: -11px;
+  bottom: 0;
+  margin: auto;
+  color: #fff;
+  font-size: 20px;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field .wpc-form-control:focus, .resturant-reservation-form .wpc-reservation-form .wpc-reservation-field .wpc-form-control:active {
+  border-bottom-color: #383A3E;
+}
+
+.resturant-reservation-form .wpc_danger_text {
+  color: #E7272D;
+  font-size: 15px;
+}
+
+.resturant-reservation-form .wpc-reservation-form .wpc-reservation-field label .wpc_required {
+  color: #E7272D;
+  font-size: 18px;
+  position: relative;
+  left: 1px;
+}
+
+.resturant-reservation-form .wpc_reservation_form_one .wpc-btn {
+  border-radius: 0;
+  margin-right: 26px;
+  background: #15181C;
+  border: 2px solid #E7272D;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+
+.resturant-reservation-form .wpc_reservation_form_one .wpc-btn.wpc_reservation_form_disabled:hover {
+  background: transparent;
+}
+
+.resturant-reservation-form .wpc-reservation-form #wpc_cancel_request {
+  border-bottom-color: #E7272D;
+  padding-left: 0;
+  padding-bottom: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.resturant-reservation-form .wpc_success_message {
+  text-align: center;
+  background: #E7272D;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.resturant-reservation-form .wpc_reservation_form.wpc_reservation_user_info {
+  margin-top: 15px;
+}
+
+.resturant-reservation-form .wpc-reservation-form .edit_booking_btn:hover {
+  border: 1px solid #E7272D;
+}
+
+/* Menu item tabs css */
+.elementor-widget-glorwya-menu-tab .wpc-food-tab-wrapper .wpc-nav li a:after {
+  width: 2px;
+  height: 60px;
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .elementor-widget-glorwya-menu-tab .wpc-food-tab-wrapper .wpc-nav li a:after {
+    display: none;
+  }
+}
+.elementor-widget-glorwya-menu-tab .wpc-food-tab-wrapper .wpc-nav li a {
+  display: table-cell;
+}
+
+.elementor-widget-glorwya-menu-tab .wpc-food-tab-wrapper .wpc-nav li a svg {
+  display: inline-block;
+}
+
+.elementor-widget-glorwya-menu-tab .wpc-food-tab-wrapper .wpc-nav li a span {
+  display: inline-block;
+  position: relative;
+  left: 7px;
+  top: -7px;
+}
+
+.wpc-location-list-style-1 .wpc-single-cat-item .wpc-category-title {
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+}
+
+@media (max-width: 1600px) {
+  .header-order-btn {
+    display: none;
+  }
+}
+/* location area css */
+.resturant-location-area .wpc-cat-thumb {
+  position: relative;
+}
+
+.resturant-location-area .wpc-cat-thumb:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000));
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, #000 100%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, #000 100%);
+}
+
+.resturant-location-area .wpc-category-title {
+  margin-bottom: 0;
+}
+
+.resturant-location-area .wpc-cat-thumb {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* chef area */
+.chef-area .ts-team-classic .ts-team-info {
+  border: 1px solid transparent;
+}
+
+.chef-area .owl-carousel .owl-nav .owl-prev {
+  color: #E7272D;
+}
+
+.chef-area .owl-carousel .owl-nav .owl-next {
+  color: #E7272D;
+}
+
+/* gloreya food slider */
+.resturant-food-slider-items .gloreya-food-slider1 .wpc-food-menu-thumb span.wpc-menu-currency .wpc-menu-price {
+  color: #ffffff;
+  position: relative;
+  top: 1px;
+  font-weight: 600;
+}
+
+.resturant-food-slider-items .woocommerce-Price-currencySymbol {
+  font-size: 12px;
+  position: relative;
+  top: -4px;
+  padding-right: 3px;
+}
+
+.resturant-food-slider-items .gloreya-food-slider1 .wpc-food-menu-thumb span.wpc-menu-currency {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #E7272D;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.resturant-offcanvas .ekit_socialshare li a:hover {
+  color: #ffffff !important;
+}
+
+/* Footer meta css */
+.footer-infos .ekit-wid-con .media {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-lists-items .elementor-widget-container {
+  border: 1px solid #3C3D40;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.mobile-nav-menu .ekit_menu_responsive_tablet .elementskit-submenu-indicator {
+  border: 0px solid !important;
+}
+
+.mobile-nav-menu .elementskit-navbar-nav-default .elementskit-navbar-nav li a {
+  border-bottom: 1px solid #dadada;
+}
+
+.dark-chef .ts-team-style4 .ts-team-info img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
